@@ -1,6 +1,6 @@
 var request = require('request'),
 assert = require('assert'),
-base_url = 'http://localhost:8080/'
+base_url = 'https://free-style-hello-world-v1.mybluemix.net/'
 
 
 var mocha = require('mocha');
