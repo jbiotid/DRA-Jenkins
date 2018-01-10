@@ -1,6 +1,5 @@
 var request = require('request'),
 assert = require('assert'),
-
 base_url = 'http://localhost:8080/'
 
 
