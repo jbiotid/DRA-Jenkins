@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,11 @@
     "url": "https://github.com/jbiotid/DRA-Jenkins/issues"
   },
   "homepage": "https://github.com/jbiotid/DRA-Jenkins#readme",
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.83.0"
+  },
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "eslint": "^4.15.0",
+    "mocha": "^4.1.0"
   }
 }
