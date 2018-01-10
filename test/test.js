@@ -1,6 +1,7 @@
 var request = require('request'),
 assert = require('assert'),
-base_url = 'http://www.google.com/'
+
+base_url = 'http://localhost:8080/'
 
 
 var mocha = require('mocha');
