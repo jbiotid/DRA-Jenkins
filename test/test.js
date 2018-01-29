@@ -29,10 +29,10 @@ function MyReporter(runner) {
 
 describe('Hello World Server', function() {
 	describe('GET /', function() {
-		it('returns status code 200', function(done) {
+		it('returns status code 400', function(done) {
 			request.get(base_url, function(error, response, body) {
 				//expect(response.statusCode).toBe(200);
-				assert.equal(200, response.statusCode)
+				assert.equal(400, response.statusCode)
 				done()
 			})
 		})
