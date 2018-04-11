@@ -1,32 +1,1026 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 1,
-    "passes": 1,
+    "suites": 23,
+    "tests": 101,
     "pending": 0,
     "failures": 0,
-    "start": "2018-02-05T18:11:14.002Z",
-    "end": "2018-02-05T18:11:14.208Z",
-    "duration": 206
+    "start": 1523461068259,
+    "end": 1523461072303,
+    "duration": 23
   },
   "tests": [
     {
-      "title": "returns status code 200",
-      "fullTitle": "Hello World Server GET / returns status code 200",
-      "duration": 201,
-      "currentRetry": 0,
-      "err": {}
+      "title": "should show validation errors if fields are blank",
+      "fullTitle": "IssueTrackerConfigurationDialog should show validation errors if fields are blank",
+      "duration": 1401
+    },
+    {
+      "title": "should check that an entered URL is valid",
+      "fullTitle": "IssueTrackerConfigurationDialog should check that an entered URL is valid",
+      "duration": 1401
+    },
+    {
+      "title": "should display unable to connect error message",
+      "fullTitle": "IssueTrackerConfigurationDialog should display unable to connect error message",
+      "duration": 1401
+    },
+    {
+      "title": "renders single template",
+      "fullTitle": "Template template properties renders single template",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with name",
+      "fullTitle": "Template template properties renders template with name",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with team",
+      "fullTitle": "Template template properties renders template with team",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with creation date",
+      "fullTitle": "Template template properties renders template with creation date",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with lastModified date",
+      "fullTitle": "Template template properties renders template with lastModified date",
+      "duration": 1551
+    },
+    {
+      "title": "renders singular task count",
+      "fullTitle": "ReleaseEvent team and app counts renders singular task count",
+      "duration": 1602
+    },
+    {
+      "title": "renders singular application and team",
+      "fullTitle": "ReleaseEvent team and app counts renders singular application and team",
+      "duration": 1602
+    },
+    {
+      "title": "renders single application, multiple teams",
+      "fullTitle": "ReleaseEvent team and app counts renders single application, multiple teams",
+      "duration": 1602
+    },
+    {
+      "title": "renders multiple applications, single team",
+      "fullTitle": "ReleaseEvent team and app counts renders multiple applications, single team",
+      "duration": 1602
+    },
+    {
+      "title": "renders multiple applications and multiple teams",
+      "fullTitle": "ReleaseEvent team and app counts renders multiple applications and multiple teams",
+      "duration": 1602
+    },
+    {
+      "title": "renders task count progress if event is in progress",
+      "fullTitle": "ReleaseEvent team and app counts renders task count progress if event is in progress",
+      "duration": 1602
+    },
+    {
+      "title": "should render settings",
+      "fullTitle": "TagSettings should render settings",
+      "duration": 1828
+    },
+    {
+      "title": "should render PreviewTags",
+      "fullTitle": "TagSettings should render PreviewTags",
+      "duration": 1828
+    },
+    {
+      "title": "should render ColorShapeEditDialog",
+      "fullTitle": "TagSettings should render ColorShapeEditDialog",
+      "duration": 1828
+    },
+    {
+      "title": "should render all tag categories",
+      "fullTitle": "TagSettings should render all tag categories",
+      "duration": 1828
+    },
+    {
+      "title": "should return correct next priority for category with existing tags",
+      "fullTitle": "TagSettings should return correct next priority for category with existing tags",
+      "duration": 1828
+    },
+    {
+      "title": "should return correct next priority for category without existing tags",
+      "fullTitle": "TagSettings should return correct next priority for category without existing tags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagAdded adds a tag if its not already in releaseTags",
+      "fullTitle": "TagSettings releaseTagAdded adds a tag if its not already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagAdded does nothing if the tag is already in releaseTags",
+      "fullTitle": "TagSettings releaseTagAdded does nothing if the tag is already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagUpdated adds a tag if its not already in releaseTags",
+      "fullTitle": "TagSettings releaseTagUpdated adds a tag if its not already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagUpdated updates the tag if its is already in releaseTags",
+      "fullTitle": "TagSettings releaseTagUpdated updates the tag if its is already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagDeleted removes a tag if its in releaseTags",
+      "fullTitle": "TagSettings releaseTagDeleted removes a tag if its in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagDeleted does nothing if the tag is not in releaseTags",
+      "fullTitle": "TagSettings releaseTagDeleted does nothing if the tag is not in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "starts with the first step",
+      "fullTitle": "JiraSetupWizard starts with the first step",
+      "duration": 1871
+    },
+    {
+      "title": "moves to confirm step if the url is matched",
+      "fullTitle": "JiraSetupWizard moves to confirm step if the url is matched",
+      "duration": 1871
+    },
+    {
+      "title": "moves to NeedMoreMappingInfo if mapping is empty",
+      "fullTitle": "JiraSetupWizard moves to NeedMoreMappingInfo if mapping is empty",
+      "duration": 1871
+    },
+    {
+      "title": "moves to EnterConnectionDetails url test did not find a matching tracker",
+      "fullTitle": "JiraSetupWizard moves to EnterConnectionDetails url test did not find a matching tracker",
+      "duration": 1871
+    },
+    {
+      "title": "moves to advanced setup if that option is selected",
+      "fullTitle": "JiraSetupWizard moves to advanced setup if that option is selected",
+      "duration": 1871
+    },
+    {
+      "title": "should display empty template page",
+      "fullTitle": "Listing templates should display empty template page",
+      "duration": 2170
+    },
+    {
+      "title": "Should list one template row",
+      "fullTitle": "Listing templates Should list one template row",
+      "duration": 2170
+    },
+    {
+      "title": "should show searchBar",
+      "fullTitle": "Listing templates should show searchBar",
+      "duration": 2170
+    },
+    {
+      "title": "should show create template button if page is not empty",
+      "fullTitle": "Listing templates should show create template button if page is not empty",
+      "duration": 2170
+    },
+    {
+      "title": "should show action menu when action icon is clicked",
+      "fullTitle": "Template actions should show action menu when action icon is clicked",
+      "duration": 2170
+    },
+    {
+      "title": "should list issues",
+      "fullTitle": "IssuesList should list issues",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 10 rows",
+      "fullTitle": "IssuesList pagination shows the first 10 rows",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 20 rows",
+      "fullTitle": "IssuesList pagination shows the first 20 rows",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 50 rows",
+      "fullTitle": "IssuesList pagination shows the first 50 rows",
+      "duration": 2200
+    },
+    {
+      "title": "should make a call for the next page of results",
+      "fullTitle": "IssuesList pagination should make a call for the next page of results",
+      "duration": 2200
+    },
+    {
+      "title": "should show no issue tracker message",
+      "fullTitle": "IssuesList should show no issue tracker message",
+      "duration": 2200
+    },
+    {
+      "title": "renders error message if query failed",
+      "fullTitle": "IssuesList renders error message if query failed",
+      "duration": 2200
+    },
+    {
+      "title": "omits pagination if there are no results",
+      "fullTitle": "IssuesList omits pagination if there are no results",
+      "duration": 2200
+    },
+    {
+      "title": "should show <Loading/> when data is still loading",
+      "fullTitle": "ApprovalList should show <Loading/> when data is still loading",
+      "duration": 410
+    },
+    {
+      "title": "should show <NotificationBanner /> when errors",
+      "fullTitle": "ApprovalList should show <NotificationBanner /> when errors",
+      "duration": 410
+    },
+    {
+      "title": "should render a table when there are data",
+      "fullTitle": "ApprovalList should render a table when there are data",
+      "duration": 410
+    },
+    {
+      "title": "checks that a URL is valid",
+      "fullTitle": "ChooseYourPath checks that a URL is valid",
+      "duration": 737
+    },
+    {
+      "title": "renders the proper option as checked",
+      "fullTitle": "ChooseYourPath renders the proper option as checked",
+      "duration": 737
+    },
+    {
+      "title": "populates the mapping value with custom property value if available and the property is a string",
+      "fullTitle": "JiraMapping handling mapping change populates the mapping value with custom property value if available and the property is a string",
+      "duration": 934
+    },
+    {
+      "title": "populates the mapping value with custom property value if available and the property is a string",
+      "fullTitle": "JiraMapping handling mapping change populates the mapping value with custom property value if available and the property is a string",
+      "duration": 934
+    },
+    {
+      "title": "should render preview tags",
+      "fullTitle": "PreviewTags should render preview tags",
+      "duration": 864
+    },
+    {
+      "title": "should render PreviewCalendar",
+      "fullTitle": "PreviewTags should render PreviewCalendar",
+      "duration": 864
+    },
+    {
+      "title": "should pass expected modifiers to PreviewCalendar ",
+      "fullTitle": "PreviewTags should pass expected modifiers to PreviewCalendar ",
+      "duration": 864
+    },
+    {
+      "title": "should show validation errors if fields are blank",
+      "fullTitle": "EnterJiraConnectionDetails should show validation errors if fields are blank",
+      "duration": 600
+    },
+    {
+      "title": "should not show validation errors if showValidationErrors is false",
+      "fullTitle": "EnterJiraConnectionDetails should not show validation errors if showValidationErrors is false",
+      "duration": 600
+    },
+    {
+      "title": "should check that an entered URL is valid",
+      "fullTitle": "EnterJiraConnectionDetails should check that an entered URL is valid",
+      "duration": 600
+    },
+    {
+      "title": "should render tagCard",
+      "fullTitle": "TagCard should render tagCard",
+      "duration": 416
+    },
+    {
+      "title": "should not render add-new-tag-btn for existing tag",
+      "fullTitle": "TagCard should not render add-new-tag-btn for existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render add-new-tag-btn for new tag",
+      "fullTitle": "TagCard should render add-new-tag-btn for new tag",
+      "duration": 416
+    },
+    {
+      "title": "should trigger editColorShape call when clicking on top of an existing tag",
+      "fullTitle": "TagCard should trigger editColorShape call when clicking on top of an existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render inline edit when clicking on bottom of an existing tag",
+      "fullTitle": "TagCard should render inline edit when clicking on bottom of an existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render both prerequisite and dependency icons",
+      "fullTitle": "TaskAdHocCount should render both prerequisite and dependency icons",
+      "duration": 281
+    },
+    {
+      "title": "should render preview calendar",
+      "fullTitle": "PreviewCalendar should render preview calendar",
+      "duration": 398
+    },
+    {
+      "title": "should render dialog",
+      "fullTitle": "ColorShapeEditDialog should render dialog",
+      "duration": 571
+    },
+    {
+      "title": "should be visible when isOpen=true",
+      "fullTitle": "ColorShapeEditDialog should be visible when isOpen=true",
+      "duration": 571
+    },
+    {
+      "title": "should render at position given by props",
+      "fullTitle": "ColorShapeEditDialog should render at position given by props",
+      "duration": 571
+    },
+    {
+      "title": "should trigger submitCallback if selection is made",
+      "fullTitle": "ColorShapeEditDialog should trigger submitCallback if selection is made",
+      "duration": 571
+    },
+    {
+      "title": "should render <DayPicker />",
+      "fullTitle": "ReleaseEventCalendar should render <DayPicker />",
+      "duration": 386
+    },
+    {
+      "title": "click should trigger onDatesChange and onDayClick call",
+      "fullTitle": "ReleaseEventCalendar click should trigger onDatesChange and onDayClick call",
+      "duration": 386
+    },
+    {
+      "title": "single click should set both startDate and endDate to same day",
+      "fullTitle": "ReleaseEventCalendar single click should set both startDate and endDate to same day",
+      "duration": 386
+    },
+    {
+      "title": "shift-click alone should not trigger onDatesChange",
+      "fullTitle": "ReleaseEventCalendar shift-click alone should not trigger onDatesChange",
+      "duration": 386
+    },
+    {
+      "title": "click then shift-click should set date range",
+      "fullTitle": "ReleaseEventCalendar click then shift-click should set date range",
+      "duration": 386
+    },
+    {
+      "title": "should use org name from current user",
+      "fullTitle": "sampleCsvDownload should use org name from current user",
+      "duration": 267
+    },
+    {
+      "title": "should use default team value if session data is missing",
+      "fullTitle": "sampleCsvDownload should use default team value if session data is missing",
+      "duration": 267
+    },
+    {
+      "title": "should show <Loading/> when data is still loading",
+      "fullTitle": "InProgressTaskList should show <Loading/> when data is still loading",
+      "duration": 376
+    },
+    {
+      "title": "should show <NotificationBanner /> when errors",
+      "fullTitle": "InProgressTaskList should show <NotificationBanner /> when errors",
+      "duration": 376
+    },
+    {
+      "title": "should render a table when there are data",
+      "fullTitle": "InProgressTaskList should render a table when there are data",
+      "duration": 376
+    },
+    {
+      "title": "should return undefined if no cookie found",
+      "fullTitle": "getSavedSortFromCookie should return undefined if no cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return undefined if cookie found",
+      "fullTitle": "getSavedSortFromCookie should return undefined if cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return sort.field and sort.order if cookie is found",
+      "fullTitle": "getSavedSortFromCookie should return sort.field and sort.order if cookie is found",
+      "duration": 88
+    },
+    {
+      "title": "should return empty list for filteredTeams, filteredTags and filteredNames if no cookie found",
+      "fullTitle": "getSavedSearchFiltersFromCookie should return empty list for filteredTeams, filteredTags and filteredNames if no cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return filteredTeams, filteredTags and filteredNames if cookie is found",
+      "fullTitle": "getSavedSearchFiltersFromCookie should return filteredTeams, filteredTags and filteredNames if cookie is found",
+      "duration": 88
+    },
+    {
+      "title": "should return true if newEvent fits status, team, tag, dateRange and name criteria",
+      "fullTitle": "shouldNewReleaseOrEventBeIncluded should return true if newEvent fits status, team, tag, dateRange and name criteria",
+      "duration": 88
+    },
+    {
+      "title": "should return true if all statuses are checked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return true if all statuses are checked",
+      "duration": 133
+    },
+    {
+      "title": "should return true if all statuses are unchecked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return true if all statuses are unchecked",
+      "duration": 133
+    },
+    {
+      "title": "should return false if not all statuses are checked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return false if not all statuses are checked",
+      "duration": 133
+    },
+    {
+      "title": "should render task status label container",
+      "fullTitle": "TaskStatusLabel should render task status label container",
+      "duration": 216
+    },
+    {
+      "title": "should render task status in text",
+      "fullTitle": "TaskStatusLabel should render task status in text",
+      "duration": 216
+    },
+    {
+      "title": "should render task circle based on input status",
+      "fullTitle": "TaskStatusLabel should render task circle based on input status",
+      "duration": 216
+    },
+    {
+      "title": "should return true if dateRangeName is calendar.filter.none",
+      "fullTitle": "isAllTime should return true if dateRangeName is calendar.filter.none",
+      "duration": 174
+    },
+    {
+      "title": "should return false if dateRangeName is not calendar.filter.none",
+      "fullTitle": "isAllTime should return false if dateRangeName is not calendar.filter.none",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for custom preset",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return undefined for custom preset",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for undefined preset",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return undefined for undefined preset",
+      "duration": 174
+    },
+    {
+      "title": "should return start and end moment for calendar.filter.today",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return start and end moment for calendar.filter.today",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for custom preset",
+      "fullTitle": "getNonCustomPresetDateRange should return undefined for custom preset",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for undefined preset",
+      "fullTitle": "getNonCustomPresetDateRange should return undefined for undefined preset",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange for today",
+      "fullTitle": "getNonCustomPresetDateRange should return dateRangeName and dateRange for today",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined if no cookie found",
+      "fullTitle": "getDateRangeFromCookie should return undefined if no cookie found",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange if non-custom preset cookie found",
+      "fullTitle": "getDateRangeFromCookie should return dateRangeName and dateRange if non-custom preset cookie found",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange if custom preset cookie found",
+      "fullTitle": "getDateRangeFromCookie should return dateRangeName and dateRange if custom preset cookie found",
+      "duration": 174
     }
   ],
-  "pending": [],
-  "failures": [],
   "passes": [
     {
-      "title": "returns status code 200",
-      "fullTitle": "Hello World Server GET / returns status code 200",
-      "duration": 201,
-      "currentRetry": 0,
-      "err": {}
+      "title": "should show validation errors if fields are blank",
+      "fullTitle": "IssueTrackerConfigurationDialog should show validation errors if fields are blank",
+      "duration": 1401
+    },
+    {
+      "title": "should check that an entered URL is valid",
+      "fullTitle": "IssueTrackerConfigurationDialog should check that an entered URL is valid",
+      "duration": 1401
+    },
+    {
+      "title": "should display unable to connect error message",
+      "fullTitle": "IssueTrackerConfigurationDialog should display unable to connect error message",
+      "duration": 1401
+    },
+    {
+      "title": "renders single template",
+      "fullTitle": "Template template properties renders single template",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with name",
+      "fullTitle": "Template template properties renders template with name",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with team",
+      "fullTitle": "Template template properties renders template with team",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with creation date",
+      "fullTitle": "Template template properties renders template with creation date",
+      "duration": 1551
+    },
+    {
+      "title": "renders template with lastModified date",
+      "fullTitle": "Template template properties renders template with lastModified date",
+      "duration": 1551
+    },
+    {
+      "title": "renders singular task count",
+      "fullTitle": "ReleaseEvent team and app counts renders singular task count",
+      "duration": 1602
+    },
+    {
+      "title": "renders singular application and team",
+      "fullTitle": "ReleaseEvent team and app counts renders singular application and team",
+      "duration": 1602
+    },
+    {
+      "title": "renders single application, multiple teams",
+      "fullTitle": "ReleaseEvent team and app counts renders single application, multiple teams",
+      "duration": 1602
+    },
+    {
+      "title": "renders multiple applications, single team",
+      "fullTitle": "ReleaseEvent team and app counts renders multiple applications, single team",
+      "duration": 1602
+    },
+    {
+      "title": "renders multiple applications and multiple teams",
+      "fullTitle": "ReleaseEvent team and app counts renders multiple applications and multiple teams",
+      "duration": 1602
+    },
+    {
+      "title": "renders task count progress if event is in progress",
+      "fullTitle": "ReleaseEvent team and app counts renders task count progress if event is in progress",
+      "duration": 1602
+    },
+    {
+      "title": "should render settings",
+      "fullTitle": "TagSettings should render settings",
+      "duration": 1828
+    },
+    {
+      "title": "should render PreviewTags",
+      "fullTitle": "TagSettings should render PreviewTags",
+      "duration": 1828
+    },
+    {
+      "title": "should render ColorShapeEditDialog",
+      "fullTitle": "TagSettings should render ColorShapeEditDialog",
+      "duration": 1828
+    },
+    {
+      "title": "should render all tag categories",
+      "fullTitle": "TagSettings should render all tag categories",
+      "duration": 1828
+    },
+    {
+      "title": "should return correct next priority for category with existing tags",
+      "fullTitle": "TagSettings should return correct next priority for category with existing tags",
+      "duration": 1828
+    },
+    {
+      "title": "should return correct next priority for category without existing tags",
+      "fullTitle": "TagSettings should return correct next priority for category without existing tags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagAdded adds a tag if its not already in releaseTags",
+      "fullTitle": "TagSettings releaseTagAdded adds a tag if its not already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagAdded does nothing if the tag is already in releaseTags",
+      "fullTitle": "TagSettings releaseTagAdded does nothing if the tag is already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagUpdated adds a tag if its not already in releaseTags",
+      "fullTitle": "TagSettings releaseTagUpdated adds a tag if its not already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagUpdated updates the tag if its is already in releaseTags",
+      "fullTitle": "TagSettings releaseTagUpdated updates the tag if its is already in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagDeleted removes a tag if its in releaseTags",
+      "fullTitle": "TagSettings releaseTagDeleted removes a tag if its in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "releaseTagDeleted does nothing if the tag is not in releaseTags",
+      "fullTitle": "TagSettings releaseTagDeleted does nothing if the tag is not in releaseTags",
+      "duration": 1828
+    },
+    {
+      "title": "starts with the first step",
+      "fullTitle": "JiraSetupWizard starts with the first step",
+      "duration": 1871
+    },
+    {
+      "title": "moves to confirm step if the url is matched",
+      "fullTitle": "JiraSetupWizard moves to confirm step if the url is matched",
+      "duration": 1871
+    },
+    {
+      "title": "moves to NeedMoreMappingInfo if mapping is empty",
+      "fullTitle": "JiraSetupWizard moves to NeedMoreMappingInfo if mapping is empty",
+      "duration": 1871
+    },
+    {
+      "title": "moves to EnterConnectionDetails url test did not find a matching tracker",
+      "fullTitle": "JiraSetupWizard moves to EnterConnectionDetails url test did not find a matching tracker",
+      "duration": 1871
+    },
+    {
+      "title": "moves to advanced setup if that option is selected",
+      "fullTitle": "JiraSetupWizard moves to advanced setup if that option is selected",
+      "duration": 1871
+    },
+    {
+      "title": "should display empty template page",
+      "fullTitle": "Listing templates should display empty template page",
+      "duration": 2170
+    },
+    {
+      "title": "Should list one template row",
+      "fullTitle": "Listing templates Should list one template row",
+      "duration": 2170
+    },
+    {
+      "title": "should show searchBar",
+      "fullTitle": "Listing templates should show searchBar",
+      "duration": 2170
+    },
+    {
+      "title": "should show create template button if page is not empty",
+      "fullTitle": "Listing templates should show create template button if page is not empty",
+      "duration": 2170
+    },
+    {
+      "title": "should show action menu when action icon is clicked",
+      "fullTitle": "Template actions should show action menu when action icon is clicked",
+      "duration": 2170
+    },
+    {
+      "title": "should list issues",
+      "fullTitle": "IssuesList should list issues",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 10 rows",
+      "fullTitle": "IssuesList pagination shows the first 10 rows",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 20 rows",
+      "fullTitle": "IssuesList pagination shows the first 20 rows",
+      "duration": 2200
+    },
+    {
+      "title": "shows the first 50 rows",
+      "fullTitle": "IssuesList pagination shows the first 50 rows",
+      "duration": 2200
+    },
+    {
+      "title": "should make a call for the next page of results",
+      "fullTitle": "IssuesList pagination should make a call for the next page of results",
+      "duration": 2200
+    },
+    {
+      "title": "should show no issue tracker message",
+      "fullTitle": "IssuesList should show no issue tracker message",
+      "duration": 2200
+    },
+    {
+      "title": "renders error message if query failed",
+      "fullTitle": "IssuesList renders error message if query failed",
+      "duration": 2200
+    },
+    {
+      "title": "omits pagination if there are no results",
+      "fullTitle": "IssuesList omits pagination if there are no results",
+      "duration": 2200
+    },
+    {
+      "title": "should show <Loading/> when data is still loading",
+      "fullTitle": "ApprovalList should show <Loading/> when data is still loading",
+      "duration": 410
+    },
+    {
+      "title": "should show <NotificationBanner /> when errors",
+      "fullTitle": "ApprovalList should show <NotificationBanner /> when errors",
+      "duration": 410
+    },
+    {
+      "title": "should render a table when there are data",
+      "fullTitle": "ApprovalList should render a table when there are data",
+      "duration": 410
+    },
+    {
+      "title": "checks that a URL is valid",
+      "fullTitle": "ChooseYourPath checks that a URL is valid",
+      "duration": 737
+    },
+    {
+      "title": "renders the proper option as checked",
+      "fullTitle": "ChooseYourPath renders the proper option as checked",
+      "duration": 737
+    },
+    {
+      "title": "populates the mapping value with custom property value if available and the property is a string",
+      "fullTitle": "JiraMapping handling mapping change populates the mapping value with custom property value if available and the property is a string",
+      "duration": 934
+    },
+    {
+      "title": "populates the mapping value with custom property value if available and the property is a string",
+      "fullTitle": "JiraMapping handling mapping change populates the mapping value with custom property value if available and the property is a string",
+      "duration": 934
+    },
+    {
+      "title": "should render preview tags",
+      "fullTitle": "PreviewTags should render preview tags",
+      "duration": 864
+    },
+    {
+      "title": "should render PreviewCalendar",
+      "fullTitle": "PreviewTags should render PreviewCalendar",
+      "duration": 864
+    },
+    {
+      "title": "should pass expected modifiers to PreviewCalendar ",
+      "fullTitle": "PreviewTags should pass expected modifiers to PreviewCalendar ",
+      "duration": 864
+    },
+    {
+      "title": "should show validation errors if fields are blank",
+      "fullTitle": "EnterJiraConnectionDetails should show validation errors if fields are blank",
+      "duration": 600
+    },
+    {
+      "title": "should not show validation errors if showValidationErrors is false",
+      "fullTitle": "EnterJiraConnectionDetails should not show validation errors if showValidationErrors is false",
+      "duration": 600
+    },
+    {
+      "title": "should check that an entered URL is valid",
+      "fullTitle": "EnterJiraConnectionDetails should check that an entered URL is valid",
+      "duration": 600
+    },
+    {
+      "title": "should render tagCard",
+      "fullTitle": "TagCard should render tagCard",
+      "duration": 416
+    },
+    {
+      "title": "should not render add-new-tag-btn for existing tag",
+      "fullTitle": "TagCard should not render add-new-tag-btn for existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render add-new-tag-btn for new tag",
+      "fullTitle": "TagCard should render add-new-tag-btn for new tag",
+      "duration": 416
+    },
+    {
+      "title": "should trigger editColorShape call when clicking on top of an existing tag",
+      "fullTitle": "TagCard should trigger editColorShape call when clicking on top of an existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render inline edit when clicking on bottom of an existing tag",
+      "fullTitle": "TagCard should render inline edit when clicking on bottom of an existing tag",
+      "duration": 416
+    },
+    {
+      "title": "should render both prerequisite and dependency icons",
+      "fullTitle": "TaskAdHocCount should render both prerequisite and dependency icons",
+      "duration": 281
+    },
+    {
+      "title": "should render preview calendar",
+      "fullTitle": "PreviewCalendar should render preview calendar",
+      "duration": 398
+    },
+    {
+      "title": "should render dialog",
+      "fullTitle": "ColorShapeEditDialog should render dialog",
+      "duration": 571
+    },
+    {
+      "title": "should be visible when isOpen=true",
+      "fullTitle": "ColorShapeEditDialog should be visible when isOpen=true",
+      "duration": 571
+    },
+    {
+      "title": "should render at position given by props",
+      "fullTitle": "ColorShapeEditDialog should render at position given by props",
+      "duration": 571
+    },
+    {
+      "title": "should trigger submitCallback if selection is made",
+      "fullTitle": "ColorShapeEditDialog should trigger submitCallback if selection is made",
+      "duration": 571
+    },
+    {
+      "title": "should render <DayPicker />",
+      "fullTitle": "ReleaseEventCalendar should render <DayPicker />",
+      "duration": 386
+    },
+    {
+      "title": "click should trigger onDatesChange and onDayClick call",
+      "fullTitle": "ReleaseEventCalendar click should trigger onDatesChange and onDayClick call",
+      "duration": 386
+    },
+    {
+      "title": "single click should set both startDate and endDate to same day",
+      "fullTitle": "ReleaseEventCalendar single click should set both startDate and endDate to same day",
+      "duration": 386
+    },
+    {
+      "title": "shift-click alone should not trigger onDatesChange",
+      "fullTitle": "ReleaseEventCalendar shift-click alone should not trigger onDatesChange",
+      "duration": 386
+    },
+    {
+      "title": "click then shift-click should set date range",
+      "fullTitle": "ReleaseEventCalendar click then shift-click should set date range",
+      "duration": 386
+    },
+    {
+      "title": "should use org name from current user",
+      "fullTitle": "sampleCsvDownload should use org name from current user",
+      "duration": 267
+    },
+    {
+      "title": "should use default team value if session data is missing",
+      "fullTitle": "sampleCsvDownload should use default team value if session data is missing",
+      "duration": 267
+    },
+    {
+      "title": "should show <Loading/> when data is still loading",
+      "fullTitle": "InProgressTaskList should show <Loading/> when data is still loading",
+      "duration": 376
+    },
+    {
+      "title": "should show <NotificationBanner /> when errors",
+      "fullTitle": "InProgressTaskList should show <NotificationBanner /> when errors",
+      "duration": 376
+    },
+    {
+      "title": "should render a table when there are data",
+      "fullTitle": "InProgressTaskList should render a table when there are data",
+      "duration": 376
+    },
+    {
+      "title": "should return undefined if no cookie found",
+      "fullTitle": "getSavedSortFromCookie should return undefined if no cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return undefined if cookie found",
+      "fullTitle": "getSavedSortFromCookie should return undefined if cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return sort.field and sort.order if cookie is found",
+      "fullTitle": "getSavedSortFromCookie should return sort.field and sort.order if cookie is found",
+      "duration": 88
+    },
+    {
+      "title": "should return empty list for filteredTeams, filteredTags and filteredNames if no cookie found",
+      "fullTitle": "getSavedSearchFiltersFromCookie should return empty list for filteredTeams, filteredTags and filteredNames if no cookie found",
+      "duration": 88
+    },
+    {
+      "title": "should return filteredTeams, filteredTags and filteredNames if cookie is found",
+      "fullTitle": "getSavedSearchFiltersFromCookie should return filteredTeams, filteredTags and filteredNames if cookie is found",
+      "duration": 88
+    },
+    {
+      "title": "should return true if newEvent fits status, team, tag, dateRange and name criteria",
+      "fullTitle": "shouldNewReleaseOrEventBeIncluded should return true if newEvent fits status, team, tag, dateRange and name criteria",
+      "duration": 88
+    },
+    {
+      "title": "should return true if all statuses are checked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return true if all statuses are checked",
+      "duration": 133
+    },
+    {
+      "title": "should return true if all statuses are unchecked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return true if all statuses are unchecked",
+      "duration": 133
+    },
+    {
+      "title": "should return false if not all statuses are checked",
+      "fullTitle": "isAllReleaseStatusesCheckedOrUnchecked should return false if not all statuses are checked",
+      "duration": 133
+    },
+    {
+      "title": "should render task status label container",
+      "fullTitle": "TaskStatusLabel should render task status label container",
+      "duration": 216
+    },
+    {
+      "title": "should render task status in text",
+      "fullTitle": "TaskStatusLabel should render task status in text",
+      "duration": 216
+    },
+    {
+      "title": "should render task circle based on input status",
+      "fullTitle": "TaskStatusLabel should render task circle based on input status",
+      "duration": 216
+    },
+    {
+      "title": "should return true if dateRangeName is calendar.filter.none",
+      "fullTitle": "isAllTime should return true if dateRangeName is calendar.filter.none",
+      "duration": 174
+    },
+    {
+      "title": "should return false if dateRangeName is not calendar.filter.none",
+      "fullTitle": "isAllTime should return false if dateRangeName is not calendar.filter.none",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for custom preset",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return undefined for custom preset",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for undefined preset",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return undefined for undefined preset",
+      "duration": 174
+    },
+    {
+      "title": "should return start and end moment for calendar.filter.today",
+      "fullTitle": "getNonCustomPresetStartEndMoment should return start and end moment for calendar.filter.today",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for custom preset",
+      "fullTitle": "getNonCustomPresetDateRange should return undefined for custom preset",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined for undefined preset",
+      "fullTitle": "getNonCustomPresetDateRange should return undefined for undefined preset",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange for today",
+      "fullTitle": "getNonCustomPresetDateRange should return dateRangeName and dateRange for today",
+      "duration": 174
+    },
+    {
+      "title": "should return undefined if no cookie found",
+      "fullTitle": "getDateRangeFromCookie should return undefined if no cookie found",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange if non-custom preset cookie found",
+      "fullTitle": "getDateRangeFromCookie should return dateRangeName and dateRange if non-custom preset cookie found",
+      "duration": 174
+    },
+    {
+      "title": "should return dateRangeName and dateRange if custom preset cookie found",
+      "fullTitle": "getDateRangeFromCookie should return dateRangeName and dateRange if custom preset cookie found",
+      "duration": 174
     }
-  ]
+  ],
+  "failures": []
 }
